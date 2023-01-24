@@ -7,9 +7,11 @@
             "type": "cppbuild",
             "label": "Make stepping",
             "command": "make",
-            "args": [],
+            "args": [
+                "stepping"
+            ],
             "options": {
-                "cwd": "${workspaceFolder}/3.6-stepping"
+                "cwd": "${workspaceFolder}/"
             },
             "problemMatcher": [
                 "$gcc"
